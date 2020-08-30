@@ -27,5 +27,3 @@ RUN set -xe && \
         ${PWD}/cphalcon-${PHALCON_VERSION} \
     && \
     php -m
-
-COPY docker-phalcon-* /usr/local/bin/
